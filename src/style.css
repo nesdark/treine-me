@@ -164,9 +164,6 @@ footer p a {
 /* ------------------ MENU IS OPEN ---------------------*/
 header .menu {
   position: relative;
-
-  transform: translateX(100%);
-  transition: all 0.3s;
 }
 
 header nav ul {
@@ -222,9 +219,6 @@ body.menu-open header .menu {
   position: fixed;
   top: 9.5rem;
   left: 0;
-
-  transform: translateX(0);
-  transition: all 0.3s;
 }
 
 body.menu-open .menu .button {
